@@ -37,16 +37,38 @@ var week1 = document.querySelector('.week1')
 var week2 = document.querySelector('.week2')
 var week3 = document.querySelector('.week3')
 
+if(week1Btn) {
 week1Btn.addEventListener('click', function() {
   week1.style.display == 'block' ? week1.style.display = 'none' : week1.style.display = 'block'
+  if(!week1Btn.checked && !week2Btn.checked && week3Btn.checked) {
+    document.querySelector('.week3 h2').style.display = 'none'
+  } else {
+    document.querySelector('.week3 h2').style.display = 'block'
+  }
 })
+if(!week1Btn.checked && !week2Btn.checked && week3Btn.checked) {
+  document.querySelector('.week3 h2').style.display = 'none'
+} else {
+    document.querySelector('.week3 h2').style.display = 'block'
+}
 
 week2Btn.addEventListener('click', function() {
   week2.style.display == 'block' ? week2.style.display = 'none' : week2.style.display = 'block'
+  if(!week1Btn.checked && !week2Btn.checked && week3Btn.checked) {
+    document.querySelector('.week3 h2').style.display = 'none'
+  } else {
+    document.querySelector('.week3 h2').style.display = 'block'
+  }
 })
 
 
 week3Btn.addEventListener('click', function() {
   week3.style.display == 'none' ? week3.style.display = 'block' : week3.style.display = 'none'
+  if(!week1Btn.checked && !week2Btn.checked && week3Btn.checked) {
+    document.querySelector('.week3 h2').style.display = 'none'
+  } else {
+    document.querySelector('.week3 h2').style.display = 'block'
+  }
 })
 
+}
