@@ -4,7 +4,7 @@ De opdracht voor het vak Web Design is om een ontwerp te maken, waarin [User Int
 
 De case die ik heb gekozen is een leeromgeving voor de minor. 
 
-[Demo](http://viennam.github.io/web-design/dist)
+Demo: [http://viennam.github.io/web-design/prod](http://viennam.github.io/web-design/prod)
 
 ## Content
 Wat heb ik allemaal (nodig)?
