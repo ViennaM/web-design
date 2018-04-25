@@ -1,0 +1,144 @@
+header {
+  width: 100vw;
+  background: white;
+  box-shadow: 0 1px 0 0 $color-light-grey;
+  display: flex;
+  align-items: center;
+  >button:first-of-type {
+    width: 4rem;
+    height: 4rem;
+    border-right: 1px solid $color-light-grey;
+    i {
+      transform: rotate(45deg) translateY(2px);
+      opacity: .5;
+    }
+    &:hover i,
+    &:focus i {
+      opacity: 1;
+    }
+  }
+  div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+    h1 {
+      font-size: 22px;
+      font-weight: 900;
+      @media screen and (max-width: 400px) {
+        font-size: 4.5vw;
+        transform: translateY(3px);
+      }
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 400;
+      opacity: .5;
+      line-height: .9;
+      @media screen and (max-width: 410px) {
+        display: none;
+      }
+    }
+  }
+  div:last-of-type {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 4%;
+    input[type="search"] {
+      border: none;
+      font-size: 16px;
+      width: 30px;
+      padding: 15px;
+      padding-left: 35px;
+      margin-right: 16px;
+      transition: .2s;
+      &:focus {
+        width: 370px;
+        outline: 0;
+        box-shadow: inset 0 0 1px 0 $color-primary;
+      }
+      @media screen and (max-width: 500px) {
+        display: none;
+      }
+      &::placeholder {
+        opacity: .5;
+      }
+      @media screen and (max-width: 570px) {
+        &:focus {
+          width: 96vw;
+          position: absolute;
+          left: 2vw;
+          z-index: 4;
+        }
+      }
+    }
+    &::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 16px;
+      background: url('../images/search@2x.png');
+      background-size: 16px;
+      transform: translatex(25px);
+      pointer-events: none;
+      @media screen and (max-width: 500px) {
+        display: none;
+      }
+    }
+
+    img {
+      width: 45px;
+      height: 45px;
+      @media screen and (max-width: 500px) {
+        display: none;
+      }
+    }
+    button {
+      padding: 6px 10px 0;
+      margin-left: 20px;
+      position: relative;
+      cursor: pointer;
+      &::after {
+        content: '';
+        display: block;
+        width: 11px;
+        height: 11px;
+        background: url('../images/arrow-down@2x.png');
+        background-size: 11px;
+        position: absolute;
+        right: -15px;
+        top: 43%;
+        transition: .2s;
+      }
+      &:focus {
+        box-shadow: 0 1px 0 0 $color-primary;
+      }
+      &:focus~ul {
+        top: 4rem;
+        opacity: 1;
+      }
+      @media screen and (max-width: 410px) {
+        margin-left: 0;
+      }
+    }
+    ul {
+      position: absolute;
+      right: 2%;
+      top: -6rem;
+      background: white;
+      padding: 10px;
+      transition: .5s;
+      z-index: -1;
+      opacity: 0;
+      border: 1px solid $color-light-grey;
+      &:focus-within {
+        top: 4rem;
+      }
+      li a {
+        padding: 0 10px;
+        line-height: 2.3;
+        display: block;
+      }
+    }
+  }
+}

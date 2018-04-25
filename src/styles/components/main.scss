@@ -1,0 +1,138 @@
+main {
+  transition: .5s;
+  max-width: 632px;
+  width: 90vw;
+  margin: 6% auto;
+  .week1, .week2 {
+    display: none;
+  }
+  > input[type="checkbox"] {
+    display: none;
+    &:checked+label {
+      border-color: $color-primary;
+    }
+  }
+  label {
+    padding: 9px 30px;
+    border: 1px solid $color-light-grey;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-family: 'GT Walsheim';
+  }
+  h1 {
+    display: none;
+  }
+  h2 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 60px;
+  }
+  > h2:first-of-type {
+   font-size: 84px;
+   @media screen and (max-width: 410px) {
+     font-size: 20vw;
+   }
+ }
+  article {
+    background: white;
+    border: 1px solid #E2E9F2;
+    position: relative;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    animation: fadeIn 1s forwards;
+    h3 {
+      display: block;
+      background: $color-primary;
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+      padding: 10px 20px;
+      border-radius: 2px 2px 0 0;
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          color: white;
+        }
+      }
+    }
+    time {
+      position: absolute;
+      top: 19px;
+      right: 20px;
+      color: white;
+      @media screen and (max-width: 450px) {
+        display: none;
+      }
+    }
+    span {
+      background: #EAF3FF;
+      background-image: url('../images/info@2x.png');
+      background-repeat: no-repeat;
+      background-size: 19px;
+      background-position: 18px 18px;
+      width: 90%;
+      max-width: 592px;
+      margin: 35px auto 20px;
+      display: block;
+      padding: 15px 10px 15px 50px;
+    }
+    h4 {
+      width: 80%;
+      max-width: 550px;
+      margin: 30px auto 20px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    ul {
+      width: 80%;
+      max-width: 550px;
+      margin: 10px auto 40px;
+      input[type="checkbox"] {
+        font-size: 16px;
+        transform: translatex(-4px);
+        &:checked {
+          opacity: .5;
+        }
+      }
+      a.af {
+        @media screen and (min-width: 720px) {
+          &::after {
+            content: ' ';
+            position: absolute;
+            top: 55%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: $color-primary;
+            animation-name: strike;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+          }
+        }
+        position: relative;
+        opacity: .5;
+        text-decoration: none;
+      }
+      a.link::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        margin-right: 7px;
+        background-image: url('../images/extern-link@2x.png');
+      }
+    }
+  }
+  @media screen and (max-width: 912px) {
+    transform: translatex(0px) !important;
+  }
+}

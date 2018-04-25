@@ -1,0 +1,79 @@
+aside {
+  width: 280px;
+  background: white;
+  border: 1px solid $color-light-grey;
+  min-height: 100vh;
+  padding: 26px;
+  line-height: 2.5;
+  transition: .5s;
+  ul li a {
+    text-decoration: none;
+    color: $color-primary;
+    display: block;
+    font-weight: 400;
+    transition: .2s;
+    &:hover {
+      padding-left: 5px;
+    }
+    &.active {
+      font-weight: bolder;
+    }
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: contain;
+      margin-right: 10px;
+    }
+    &.home::before {
+      background-image: url('../images/home@2x.png');
+    }
+    &.actueel::before {
+      background-image: url('../images/arrow-right@2x.png');
+    }
+    &.progress::before {
+      background-image: url('../images/hourglass@2x.png');
+    }
+    &.voltooid::before {
+      background-image: url('../images/check@2x.png');
+    }
+    &.link::before {
+      background-image: url('../images/extern-link@2x.png');
+    }
+    &.docent::before {
+      background-image: url('../images/docent@2x.png');
+    }
+    &.voltooid {
+      opacity: .5;
+    }
+    &.link {
+      color: $color-secondary;
+      text-decoration: underline;
+      font-weight: 600;
+      &:hover {
+        color: #2BA5FF;
+      }
+    }
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    border-top: 1px solid $color-light-grey;
+  }
+
+  img {
+    transform: scale(0.5) translate(-12px,14px);
+  }
+  @media screen and (max-width: 912px) {
+    position: absolute;
+    z-index: 5;
+    top: 64px;
+  }
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
+}

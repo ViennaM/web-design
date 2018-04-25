@@ -1,0 +1,17 @@
+body {
+  background: $color-background;
+  color: $color-primary;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'GT Walsheim';
+  color: $color-primary;
+}
+
+a:hover {
+  color: #2BA5FF;
+}
