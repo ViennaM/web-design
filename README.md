@@ -20,8 +20,8 @@ Marie volgt de minor web development en wil in één oogopslag een duidelijk ove
 
 **Doel:** Een interface met heldere navigatie en hiërarchie.
 
-### Student CMD
-Een student van de minor web development wil een omgeving waarin hij alles kan vinden wat hij tijdens de minor nodig heeft. Daarnaast wil hij zijn voortgang kunnen bijhouden.
+### Jelle
+Jelle is een student van de minor web development. Hij wil een omgeving waarin hij alles kan vinden wat hij tijdens de minor nodig heeft. Op de huidige omgeving moet hij vaak te lang zoeken naar documenten, presentaties en beoordelingsformulieren. Daarnaast wil hij zijn voortgang van de minor kunnen bijhouden.
 
 **Doel:** Interactieve elementen om voortgang bij te kunnen houden.
 
@@ -48,9 +48,17 @@ De zijbalk is te verbergen om de aandacht te richten op de huidige pagina.
 ### 2. Strong visual hierarchies work best
 Met behulp van een grote titel weet je direct op welke pagina je bent.
 
+### 3. Progressive disclosure
+Laat per default de huidige week van een vak zien. Andere weken zijn te zien als je die aan klikt.
+
 ## Test
 ![marie](images/marie.png)
-Belangrijke bevindingen uit de test met Marie:
+
+### Testplan
+De belangrijkste vraag die ik heb is of Marie de interface begrijpt en er doorheen kan navigeren, zonder problemen. Dit test ik door haar te vragen wat haar opvalt en of ze bijvoorbeeld de Weekly Nerd van een week geleden kan vinden. Daarnaast wil ik weten wat juist onduidelijk is en verbeterd kan/moet worden. 
+
+### Bevindingen
+
 - Huiswerk link is niet duidelijk: streep je het door wanneer je erop klikt?
 - Iconen naast de vakken kunnen beter. Misschien ergens uitleggen.
 - Het informatieblok binnen een lesblok is goed gedaan.
@@ -59,6 +67,12 @@ Belangrijke bevindingen uit de test met Marie:
 - Het is duidelijk een verbetering ten opzichte van Moodle.
 
 De volledige test vind je [hier](https://photos.app.goo.gl/lS0BiTudLU2OobMX2)
+
+## To do
+- Feedback Marie verwerken
+- Responsive bugs fixen
+- Een inlog scherm maken
+- Active state duidelijker maken
 
 ## Bronnen
 
