@@ -1,0 +1,26 @@
+body {
+  background: $color-background;
+  color: $color-primary;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  color: $color-primary;
+}
+
+a {
+  color: $color-primary;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-secondary;
+}
+
+.hidden {
+  display: none;
+}

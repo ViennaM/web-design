@@ -1,0 +1,36 @@
+header {
+  width: 100vw;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 25px;
+  > a {
+    img {
+      width: 79px;
+    }
+    &:last-of-type {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100px;
+      img {
+        width: 36px;
+      }
+      span {
+        margin: 0 14px;
+      }
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    a {
+      padding: 12px;
+    }
+  }
+}

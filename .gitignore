@@ -38,5 +38,6 @@ Thumbs.db
 
 node_modules/
 **/.sass-cache/*
+*.gitignore
 **/bower_components/*
 styleguide/
