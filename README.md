@@ -85,3 +85,10 @@ De volledige test vind je [hier](https://photos.app.goo.gl/lS0BiTudLU2OobMX2)
 - [Aantekeningen](https://drive.google.com/open?id=1LlXZ1IqyslOYcT5mv1bZcTE5PS6oQzN5)
 
 - [https://interaction18.ixda.org/program/talk-designing-for-deaf-people--for-everyone-actually-van-driessche-marie/](https://interaction18.ixda.org/program/talk-designing-for-deaf-people--for-everyone-actually-van-driessche-marie/)
+
+## Aanvullingen
+| Feedback | Aanpassingen |
+|-------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Opdracht 1 ontbreekt. | [Toegevoegd](https://github.com/ViennaM/web-design/tree/master/opdracht1). |
+| Ook in het scrollen van een lange pagina mis ik de feedback naar welk vak ik kijjk. | Betreffende vak ook [sticky](https://github.com/ViennaM/web-design/commit/7ea3687f7e1fffe03005bdd8af7bdbbc3b6d1f0a) gemaakt. |
+| Sowieso mis ik de flow die past bij een user scenario. | [User scenario aangevuld](https://github.com/ViennaM/web-design#user-scenarios). Flow van de website komt nu overeen. |
