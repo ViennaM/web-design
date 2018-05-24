@@ -16,12 +16,16 @@ Wat heb ik allemaal (nodig)?
 ## User Scenario's
 
 ### Marie
-Marie volgt de minor web development en wil in één oogopslag een duidelijk overzicht van het juiste lesmateriaal, zodat ze geen lange lappen tekst hoeft door te lezen.
+Marie volgt de minor web development en wil in één oogopslag een duidelijk overzicht van het juiste lesmateriaal, zodat ze geen lange lappen tekst hoeft door te lezen om bijvoorbeeld een document te vinden die zij zoekt.
+
+**Scenaro:** Marie navigeert naar het vak waarvan zij de slides nog eens wil doorlezen. Ze selecteert de week waar de slides te vinden zijn. Ze scrollt naar beneden om de juiste les te vinden. Ondertussen wordt er een mededeling gedaan door een docent en moet haar aandacht verleggen naar haar doventolk. Wanneer de mededeling is geweest gaat haar aandacht weer naar haar scherm. Ze weet precies waar ze is gebleven en kan de presenatie vinden die zij zocht. Mocht het zo zijn dat ze niet kan vinden wat ze zoekt, dan kan ze de zoekfunctie gebruiken die in de header staat.
 
 **Doel:** Een interface met heldere navigatie en hiërarchie.
 
 ### Jelle
-Jelle is een student van de minor web development. Hij wil een omgeving waarin hij alles kan vinden wat hij tijdens de minor nodig heeft. Op de huidige omgeving moet hij vaak te lang zoeken naar documenten, presentaties en beoordelingsformulieren. Daarnaast wil hij zijn voortgang van de minor kunnen bijhouden.
+Jelle is een student van de minor web development. Hij wil een omgeving waarin duidelijk staat beschreven wat hij moet doen en wanneer. Daarnaast wil hij zijn voortgang van de minor kunnen bijhouden.
+
+**Scenario**: Jelle komt einde van de ochtend uit het college met de opdracht om voor het volgende college een artikel te lezen en daarvan aantekeningen te maken. Op de vernieuwde elo kan Jelle direct zien wat hem te doen staat voor het vak van vandaag. Jelle maakt de opdracht en vinkt deze af. De volgende dag vraagt Jelle zich af of hij voor het aankomende college nog iets moet doen. Hij navigeert naar het betreffende vak en ziet dat hij de opdracht heeft afgevinkt, dus klaar is voor het volgende college. Ook voor herkansingen weet Jelle wat hem te doen staat. In de navigatie staat precies welke vakken hij heeft afgerond en welke nog niet.
 
 **Doel:** Interactieve elementen om voortgang bij te kunnen houden.
 
@@ -43,13 +47,13 @@ Jelle is een student van de minor web development. Hij wil een omgeving waarin h
 Bij het ontwerpen van de interface heb ik een aantal principes toegepast.
 
 ### 1. Conserve attention at all costs
-De zijbalk is te verbergen om de aandacht te richten op de huidige pagina. 
+De zijbalk is te verbergen om de aandacht te richten op de huidige pagina. Dit kan nuttig zijn voor gebruikers die hun aandacht willen houden bij de content van de pagina waar zij zich bevinden.
 
 ### 2. Strong visual hierarchies work best
-Met behulp van een grote titel weet je direct op welke pagina je bent.
+Met behulp van een grote titel weet je direct op welke pagina je bent. Dit zorgt ervoor dat de kijkvolgorde de gebruiker leidt door de belangrijkste visuele elementen.
 
 ### 3. Progressive disclosure
-Laat per default de huidige week van een vak zien. Andere weken zijn te zien als je die aan klikt.
+Laat per default de huidige week van een vak zien. Andere weken zijn te zien als je die aan klikt. Hiermee laat ik alleen de informatie zien die nodig is.
 
 ## Test
 ![marie](images/marie.png)
@@ -76,4 +80,8 @@ De volledige test vind je [hier](https://photos.app.goo.gl/lS0BiTudLU2OobMX2)
 
 ## Bronnen
 
-[http://bokardo.com/principles-of-user-interface-design/](http://bokardo.com/principles-of-user-interface-design/)
+- [http://bokardo.com/principles-of-user-interface-design/](http://bokardo.com/principles-of-user-interface-design/)
+
+- [Aantekeningen](https://drive.google.com/open?id=1LlXZ1IqyslOYcT5mv1bZcTE5PS6oQzN5)
+
+- [https://interaction18.ixda.org/program/talk-designing-for-deaf-people--for-everyone-actually-van-driessche-marie/](https://interaction18.ixda.org/program/talk-designing-for-deaf-people--for-everyone-actually-van-driessche-marie/)
