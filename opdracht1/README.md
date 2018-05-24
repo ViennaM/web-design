@@ -56,3 +56,5 @@ Deze feedback heb ik echter nog niet verwerkt. Het is wel iets om rekening mee t
 
 ## Bronnen
 - [http://bokardo.com/principles-of-user-interface-design/](http://bokardo.com/principles-of-user-interface-design/)
+
+- [Aantekeningen](https://drive.google.com/open?id=1LlXZ1IqyslOYcT5mv1bZcTE5PS6oQzN5)
