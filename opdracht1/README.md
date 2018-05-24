@@ -7,7 +7,7 @@ Een user interface voor de use case: 'Ik wil artikelen in mijn winkelmandje kunn
 
 [Design demo](https://xd.adobe.com/view/8465b814-17f3-4a55-4cb4-d8bcf9e51e1f-f254/?fullscreen&hints=off)
 
-[HTML demo](https://viennam.github.io/web-design/opdracht1/dist/index.html/)
+[HTML demo](https://viennam.github.io/web-design/opdracht1/prod/index.html/)
 
 
 ## User interface principes
