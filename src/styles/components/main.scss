@@ -33,17 +33,23 @@ main {
     font-weight: 900;
     font-size: 24px;
     line-height: 1;
-    margin-bottom: 30px;
-    margin-top: 40px;
+    margin-bottom: 70px;
     position: sticky;
     top: -1px;
     padding: 20px 0;
     z-index: 2;
     background: $color-background;
+    transform: translatey(50px);
+    margin-top: -72px;
   }
   >h2:first-of-type {
     font-size: 84px;
-    position: relative;
+    position: sticky;
+    transform: translatey(0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    z-index: 3;
+    padding-bottom: 15px;
     @media screen and (max-width: 410px) {
       font-size: 20vw;
     }

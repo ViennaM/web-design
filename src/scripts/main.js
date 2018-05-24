@@ -38,6 +38,7 @@ var week2 = document.querySelector('.week2')
 var week3 = document.querySelector('.week3')
 
 if(week1Btn) {
+
 week1Btn.addEventListener('click', function() {
   week1.style.display == 'block' ? week1.style.display = 'none' : week1.style.display = 'block'
   if(!week1Btn.checked && !week2Btn.checked && week3Btn.checked) {
@@ -72,3 +73,12 @@ week3Btn.addEventListener('click', function() {
 })
 
 }
+
+window.addEventListener('scroll', function() {
+  if(pageYOffset > 180) {
+    document.querySelector('#main > h2').style.fontSize = '36px'
+  } else {
+    document.querySelector('#main > h2').style.fontSize = '84px'
+  }
+})
+
